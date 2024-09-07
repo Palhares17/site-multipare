@@ -1,4 +1,5 @@
 import { TitleSections } from '../ui/titleSections';
+import EvaletLogo from '../../assets/e-valet.svg';
 
 const text = [
   {
@@ -40,7 +41,7 @@ function EvaletPage() {
   return (
     <main>
       <section className="flex flex-col gap-4 justify-center my-12 md:my-24 md:w-[680px] mx-auto">
-        <img src="src/assets/e-valet.svg" alt="logo e-valet" className="h-12" />
+        <img src={EvaletLogo} alt="logo e-valet" className="h-12" />
         <p className="text-xl">
           O equipamento e-VALET - Terminal ATENDIMENTO - TA, consiste de um
           móvel conectado a internet e dotado de uma TELA LCD/LED para exibição

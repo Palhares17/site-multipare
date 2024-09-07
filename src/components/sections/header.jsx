@@ -1,6 +1,7 @@
 import { Link } from 'react-scroll';
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
+import LogoMultipare from '../../assets/multipare.png';
 
 function Header() {
   const [dropdown, setDropdown] = useState(false);
@@ -16,7 +17,7 @@ function Header() {
   return (
     <header className="flex flex-col items-center gap-4 md:flex-row justify-between">
       <NavLink to="/">
-        <img src="src/assets/multipare.png" alt="logo" className="h-16" />
+        <img src={LogoMultipare} alt="logo" className="h-16" />
       </NavLink>
       <nav className="relative">
         <ul className="flex gap-3">

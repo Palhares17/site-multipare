@@ -1,3 +1,5 @@
+import Estacionamento1 from '../../assets/estacionamento01.jpg';
+
 function Intro() {
   return (
     <section className="flex flex-col-reverse items-center justify-center my-12 md:my-24 md:flex-row">
@@ -18,7 +20,7 @@ function Intro() {
       </div>
 
       <img
-        src="src/assets/estacionamento01.jpg"
+        src={Estacionamento1}
         alt="estacionamento ao ar livre"
         className="shadow-xl object-cover h-80 w-full md:w-1/3 mb-8 md:mb-0 rounded-3xl"
       />

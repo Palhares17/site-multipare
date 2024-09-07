@@ -1,4 +1,6 @@
 import { TitleSections } from '../ui/titleSections';
+import EPareLogo from '../../assets/epare.png';
+
 
 const text = [
   {
@@ -41,7 +43,7 @@ function EParePage() {
     <main>
       <section className="flex flex-col gap-4 justify-center my-12 md:my-24 md:w-[680px mx-auto">
         <img
-          src="src/assets/epare.png"
+          src={EPareLogo}
           alt="logo e-pare"
           className="h-12 w-36 m-auto"
         />

@@ -1,8 +1,9 @@
 import { TitleSections } from '../ui/titleSections';
+import Estacionamento2 from '../../assets/estacionamento02.jpg';
 
 function Contact() {
   return (
-    <section id='contact'>
+    <section id="contact">
       <TitleSections
         title={'Contato'}
         subtitle={'Entre em contato com a nossa equipe especializada.'}
@@ -10,7 +11,7 @@ function Contact() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center mt-6">
         <img
-          src="src/assets/estacionamento02.jpg"
+          src={Estacionamento2}
           alt="estacionamento em lugar fechado"
           className="w-full h-48 md:h-full object-cover rounded-lg"
         />
